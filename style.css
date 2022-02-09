@@ -170,11 +170,12 @@
 }
 .screen_01_wrapper{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     display: flex;
     background-color: #E5E5E5;
     padding: 100px;
+    padding-bottom: 0;
 }
 .screen_01_img{
     flex: 1;
@@ -182,7 +183,6 @@
 .screen_01_description{
     flex: 1;
     width: 100%;
-    height: 76vh;
     display: flex;
     flex-direction: column;
     background-color: #F2EAE2;
@@ -207,6 +207,9 @@ div>a{
     display: flex;
     height: 100%;
     align-items: flex-end;
+}
+.button_wrap{
+    background-color: #E5E5E5;
 }
 .screen_button{
     width: 250px;
@@ -269,7 +272,6 @@ div>a{
     height: 100%;
     padding: 150px 100px;
     background: #E5E5E5;
-    margin-bottom: 120px;
     position: relative;
 }
 .article_03_wrap{
@@ -335,3 +337,197 @@ div>a{
     position: absolute;
     right: 100px;
 }
+.gallery_container{
+    width: 100%;
+    height:100vh;
+    background: #E5E5E5;
+    position: relative;
+}
+.gallery_centered{
+    width: 450px;
+    height: 450px;
+    background-color: #F2EAE2;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 400px;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gallery_centered>p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #747481;
+}
+.gallery_centered>h2{
+    font-size: 28px;
+    color: #082C4E;
+    font-weight: 400;
+
+}
+.img_left01{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+.img_left02{
+    position: absolute;
+    top: 100px;
+    left:300px;
+}
+.img_left03{
+    position: absolute;
+    bottom: 130px;
+    left:150px;
+}
+.img_left04{
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+}
+.img_left05{
+    position: absolute;
+    bottom: 30px;
+    left:380px;
+}
+.img_right_01{
+    position: absolute;
+    top: 120px;
+    right:380px;
+    border-radius: 50%;
+}
+.img_right_02{
+    position: absolute;
+    top: 70px;
+    right:90px;
+}
+.img_right_03{
+    position: absolute;
+    top: 200px;
+    right:200px;
+}
+.img_right_04{
+    position: absolute;
+    top: 350px;
+    right: 20px;
+}
+.img_right_05{
+    position: absolute;
+    bottom: 10px;
+    right: 350px;
+}
+.gallery_button{
+    width: 195px;
+    height: 57px;
+    border-radius: 100px;
+    background: #3098F3;
+    color: #FFFF;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.footer_wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #082C4E;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.footer_header{
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: 1.20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.footer_topwrap{
+    display: flex;
+}
+.footer_left{
+    flex: 2;
+    padding:100px
+}
+.footer_right{
+    flex: 1;
+}
+.footer_button{
+    width: 148px;
+    height: 57px;
+    margin-top: 30px;
+    background: #FFCC00;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+.footer_right{
+    display: flex;
+    flex-direction: column;
+}
+.footer_round01{
+    width: 230px;
+    height: 230px;
+    background: #FFCC00;
+    border-radius: 50%;
+    position: absolute;
+    top: -150px;
+}
+.round01_support{
+    width: 250px;
+    height: 150px;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+}
+.footer_round02{
+    width: 230px;
+    height:230px;
+    border-radius: 50%;
+    background: #3098F3;
+    position: absolute;
+    top: 150px;
+}
+.round02_support{
+    width: 100px;
+    height: 100px;
+    background: #082C4E;
+    border-radius: 50%;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+.footer_bottomwrap{
+    display: flex;
+    padding: 0 100px 30px 100px;
+    color: #FFFFFF;
+}
+.footer_bottom01{
+    flex: 2;
+}
+ul>li{
+    list-style: none;
+    line-height: 34px;
+    font-size: 15px;
+}
+ul{
+    margin-bottom: 30px;
+}
+.footer_bottom02{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_bottom03{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
